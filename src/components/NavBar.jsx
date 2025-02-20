@@ -7,18 +7,20 @@ const NavBar = () => {
   const { user, avatarURL } = useContext(UserAccount);
 
   return (
-    <nav className="nav-bar">
-      <Link to="/">
-        <button className="home-button">
-          <HouseSimple size={25} />
-        </button>
-      </Link>
-      <Link to="/User">
-        <button className="user-button">
-          <User size={25} />
-        </button>
-      </Link>
-    </nav>
+    <footer>
+      <nav className="nav-bar">
+        <Link to="/">
+          <button className="home-button">
+            <HouseSimple size={25} />
+          </button>
+        </Link>
+        <Link to="/User">
+          <button className="user-button">
+            <User size={25} />
+          </button>
+        </Link>
+      </nav>
+    </footer>
   );
 };
 export default NavBar;

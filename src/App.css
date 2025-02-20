@@ -38,6 +38,13 @@
 .home-button:hover {
   background-color: rgb(121, 3, 3);
 }
+.go-to-article {
+  background-color: #242424;
+  border-style: none;
+}
+.go-to-article:hover {
+  color: rgb(190, 6, 6);
+}
 .box {
   border-style: inset;
   margin-top: 10px;
@@ -54,7 +61,7 @@
 }
 .article-title {
   margin-top: 5px;
-  padding-left: 10px;
+  padding-left: 4px;
 }
 .article-stuff {
   padding-left: 10px;
@@ -67,10 +74,49 @@
 }
 .nav-bar {
   background-color: rgb(190, 6, 6);
-  text-align: center;
-  position: fixed;
   bottom: 0;
+  position: fixed;
   width: 100%;
-  z-index: 1;
   border-style: hidden;
+}
+.user {
+  text-align: center;
+}
+.article-top {
+  border-style: inset;
+  border-radius: 10px;
+  border-color: rgb(190, 6, 6);
+  text-align: center;
+  width: 80%;
+  margin: 20px auto;
+  display: block;
+}
+.single-art-img {
+  text-align: center;
+  margin: 20px auto;
+  display: block;
+  border-style: inset;
+  border-radius: 10px;
+  border-color: rgb(190, 6, 6);
+  width: 60%;
+  height: 400px;
+}
+.article-info {
+  border-style: inset;
+  width: 400px;
+  margin: 20px auto;
+  display: block;
+  padding-left: 10px;
+  background-color: rgb(190, 6, 6);
+  border-radius: 10px;
+  border-color: rgb(190, 6, 6);
+}
+.art-body {
+  border-style: inset;
+  width: 60%;
+  margin: 20px auto;
+  display: block;
+  border-radius: 10px;
+  border-color: rgb(190, 6, 6);
+  padding-left: 10px;
 }

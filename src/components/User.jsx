@@ -6,8 +6,10 @@ const User = () => {
 
   return (
     <>
-      <h2>User Profile</h2>
-      <h3>Hi User{user}</h3>
+      <section className="user">
+        <h2>User Profile</h2>
+        <h3>Hi User{user}</h3>
+      </section>
     </>
   );
 };
