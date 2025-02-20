@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 const ArticleList = ({ articles }) => {
   return (
     <ul className="article-list">
@@ -6,7 +8,11 @@ const ArticleList = ({ articles }) => {
           <section key={article.article_id}>
             <div className="box">
               <img className="art-img" src={article.article_img_url} />
-              <h3 className="article-title">{article.title}</h3>
+              <Link to={`/article/${article.article_id}`}>
+                <button className="go-to-article">
+                  <h3 className="article-title">{article.title}</h3>
+                </button>
+              </Link>
               <p className="article-stuff">
                 {article.created_at.slice(0, 10)}
                 <br></br>
