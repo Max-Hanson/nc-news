@@ -24,6 +24,3 @@ const NavBar = () => {
   );
 };
 export default NavBar;
-{
-  /* <img src={avatarURL} alt="avatar img" className="avatar-img" /> */
-}
